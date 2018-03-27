@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  Loan
+//
+//  Created by FanXing on 2017/11/18.
+//  CokAdaptedHeightright © 2017年 FanXing. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//全局宏
+#import "UtilsMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+
+//基础类
+#import "AppDelegate.h"
+#import "RootViewController.h"
+#import "RootWebViewController.h"
+#import "RootNavigationController.h"
+#import "MainTabBarController.h"
+#import "AppManager.h"
+#import "AppDelegate+AppService.h"
+#import "MBProgressHUD+XY.h"
+#import "UIButton+Position.h"
+#import "NSString+DYGAdd.h"
+#import <IQKeyboardManager.h>
+#import "GlobeConst.h"
+#import "UserInfo.h"
+#import "UserInfoManager.h"
+#import "PatternHelper.h"
+
+//网络请求类
+#import "FXHttpTool.h"
+#import "DYGEnCode.h"
+#import "DYGBase64.h"
+//第三方
+#import <NSObject+YYModel.h>
+#import <YYKit.h>
+#import <MBProgressHUD.h>
+#import <Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "SDCycleScrollView.h"
+#import "FLFMDBManager.h"
+#import "FLFMDBQueueManager.h"
+
+#endif /* PrefixHeader_pch */
